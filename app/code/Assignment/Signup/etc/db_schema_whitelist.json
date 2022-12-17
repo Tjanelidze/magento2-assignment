@@ -1,0 +1,30 @@
+{
+    "Assignment_Signup": {
+        "column": {
+            "id": true,
+            "name": true,
+            "date": true
+        },
+        "index": {
+            "ASSIGNMENT_SIGNUP_NAME": true,
+            "ASSIGNMENT_SIGNUP_DATE": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "assignment_signup": {
+        "column": {
+            "id": true,
+            "name": true,
+            "date": true
+        },
+        "index": {
+            "ASSIGNMENT_SIGNUP_NAME": true,
+            "ASSIGNMENT_SIGNUP_DATE": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

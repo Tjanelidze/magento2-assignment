@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference type="Assignment\Signup\Model\Signup" for="Assignment\Signup\Api\Data\SignupInterface"/>
+    <preference type="Assignment\Signup\Model\SignupRepository" for="Assignment\Signup\Api\SignupRepositoryInterface"/>
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="assignment_signup_grid_data_source" xsi:type="string">Assignment\Signup\Model\ResourceModel\Signup\Grid\Collection</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

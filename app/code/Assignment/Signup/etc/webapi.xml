@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<routes>
+    <route method="GET" url="V1/assignment">
+        <service class="Assignment\Signup\Api\SignupRepositoryInterface" method="getData"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route  url="/V1/assignment/getbyid/:id" method="GET">
+        <service class="Assignment\Signup\Api\SignupRepositoryInterface" method="getById"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route method="DELETE" url="/V1/assignment/delete/:id">
+        <service class="Assignment\Signup\Api\SignupRepositoryInterface" method="getDelete"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+    <route url="/V1/assignment/name/:id" method="POST">
+        <service class="Assignment\Signup\Api\SignupRepositoryInterface" method="setName"/>
+        <resources>
+            <resource ref="anonymous"/>
+        </resources>
+    </route>
+</routes>

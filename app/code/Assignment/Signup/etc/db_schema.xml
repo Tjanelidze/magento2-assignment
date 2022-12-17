@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="assignment_signup" resource="default" engine="innodb" comment="assignment_signup">
+        <column xsi:type="int" name="id" padding="10" unsigned="true" nullable="false" identity="true" comment="ID"/>
+        <column xsi:type="varchar" name="name" comment="Name" nullable="false"/>
+        <column xsi:type="date" name="date" nullable="true" comment="date"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <index referenceId="MY_MODULE_NAME" indexType="btree">
+            <column name="name"/>
+        </index>
+        <index referenceId="MY_MODULE_date" indexType="btree">
+            <column name="date"/>
+        </index>
+    </table>
+</schema>

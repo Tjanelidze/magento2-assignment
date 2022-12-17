@@ -1,0 +1,1 @@
+"Fatal Error: 'Declaration of Assignment\\Signup\\Model\\Signup::getName($name) must be compatible with Assignment\\Signup\\Api\\Data\\SignupInterface::getName()' in '\/var\/www\/html\/app\/code\/Assignment\/Signup\/Model\/Signup.php' on line 23"
