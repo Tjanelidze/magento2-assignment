@@ -331,6 +331,8 @@ return [
         'Amazon_Login' => 1,
         'Amazon_Payment' => 1,
         'Assignment_Signup' => 1,
+        'Assignment_UiGrid' => 1,
+        'Assignment_Weather' => 1,
         'Dotdigitalgroup_Email' => 1,
         'Dotdigitalgroup_Chat' => 1,
         'Dotdigitalgroup_Sms' => 1,

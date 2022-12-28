@@ -671,6 +671,18 @@ require.config(config);
 })();
 (function() {
 var config = {
+    map: {
+        "*": {
+            "Magento_Ui/js/grid/filters/filters": "Assignment_Weather/js/grid/filters/filters"
+        }
+    }
+};
+console.log('Filters override working!')
+
+require.config(config);
+})();
+(function() {
+var config = {
     'paths': {
         'fancybox': 'Dotdigitalgroup_Email/js/node_modules/fancybox/jquery.fancybox.pack'
     },

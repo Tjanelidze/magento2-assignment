@@ -1,0 +1,1 @@
+<?php if ($block->getEnabled()): ?> <form action="<?php echo $block->getFormAction() ?>" method="post"><label for="name">Name:</label><br> <input type="text" id="name" name="name"><br> <label for="date">Date:</label><br> <input type="date" id="date" name="date"><br><br> <input type="submit" value="Submit"></form><?php else: ?> <h1> Form not enabled</h1><?php endif; ?>

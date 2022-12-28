@@ -1556,6 +1556,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-bundle-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-cache-invalidate' => 
     array (
       'pretty_version' => '100.4.1',
@@ -1682,6 +1691,24 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-catalog-rule-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-catalog-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-catalog-search' => 
     array (
       'pretty_version' => '102.0.2',
@@ -1763,6 +1790,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-cms-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-cms-url-rewrite' => 
     array (
       'pretty_version' => '100.4.1',
@@ -1830,6 +1866,15 @@
     array (
       'pretty_version' => '100.4.0',
       'version' => '100.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-configurable-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
       'aliases' => 
       array (
       ),
@@ -1925,6 +1970,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-customer-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-deploy' => 
     array (
       'pretty_version' => '100.4.2',
@@ -1989,6 +2043,15 @@
       'reference' => NULL,
     ),
     'magento/module-downloadable-import-export' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-downloadable-sample-data' => 
     array (
       'pretty_version' => '100.4.1',
       'version' => '100.4.1.0',
@@ -2163,6 +2226,15 @@
     array (
       'pretty_version' => '100.4.2',
       'version' => '100.4.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-grouped-product-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
       'aliases' => 
       array (
       ),
@@ -3194,6 +3266,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-msrp-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-multishipping' => 
     array (
       'pretty_version' => '100.4.2',
@@ -3257,6 +3338,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-offline-shipping-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-page-cache' => 
     array (
       'pretty_version' => '100.4.2',
@@ -3312,6 +3402,15 @@
       'reference' => NULL,
     ),
     'magento/module-product-alert' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-product-links-sample-data' => 
     array (
       'pretty_version' => '100.4.1',
       'version' => '100.4.1.0',
@@ -3608,6 +3707,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-review-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-robots' => 
     array (
       'pretty_version' => '101.1.0',
@@ -3675,6 +3783,24 @@
     array (
       'pretty_version' => '101.2.2',
       'version' => '101.2.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-sales-rule-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-sales-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
       'aliases' => 
       array (
       ),
@@ -3833,6 +3959,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-swatches-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-tax' => 
     array (
       'pretty_version' => '100.4.2',
@@ -3860,6 +3995,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-tax-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-theme' => 
     array (
       'pretty_version' => '101.1.2',
@@ -3870,6 +4014,15 @@
       'reference' => NULL,
     ),
     'magento/module-theme-graph-ql' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/module-theme-sample-data' => 
     array (
       'pretty_version' => '100.4.1',
       'version' => '100.4.1.0',
@@ -4049,6 +4202,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-widget-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/module-wishlist' => 
     array (
       'pretty_version' => '101.2.2',
@@ -4076,6 +4238,15 @@
       ),
       'reference' => NULL,
     ),
+    'magento/module-wishlist-sample-data' => 
+    array (
+      'pretty_version' => '100.4.1',
+      'version' => '100.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'magento/product-community-edition' => 
     array (
       'pretty_version' => '2.4.2',
@@ -4089,6 +4260,15 @@
     array (
       'pretty_version' => '2.4.2',
       'version' => '2.4.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
+    'magento/sample-data-media' => 
+    array (
+      'pretty_version' => '100.4.0',
+      'version' => '100.4.0.0',
       'aliases' => 
       array (
       ),

@@ -1,0 +1,120 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj 
+<</Type /Catalog /Version /1.4 /Pages 2 0 R /Names 7 0 R >>
+endobj
+2 0 obj 
+<</Type /Pages /Kids [3 0 R ] /Count 1 >>
+endobj
+3 0 obj 
+<</Type /Page /LastModified (D:20221227195824+00'00') /Resources <</ProcSet [/Text /PDF ] /Font <</F1 8 0 R >> >> /MediaBox [0 0 595 842 ] 
+/Contents [4 0 R ] /Parent 2 0 R >>
+endobj
+4 0 obj 
+<</Length 651 >>
+stream
+/F1 15 Tf
+0 0 0 RG
+/F1 16 Tf
+0 0 0 RG
+30 760 535 60 re
+ S
+/F1 15 Tf
+0 0 0 RG
+BT
+35 800 Td
+(Cutomer Details) Tj
+ET
+/F1 11 Tf
+0 0 0 RG
+BT
+35 783 Td
+(Name : John Smith) Tj
+ET
+BT
+35 766 Td
+(Email : test@example.com) Tj
+ET
+/F1 12 Tf
+0 0 0 RG
+BT
+90 740 Td
+(PRODUCT NAME) Tj
+ET
+BT
+230 740 Td
+(PRICE) Tj
+ET
+BT
+340 740 Td
+(QUANTITY) Tj
+ET
+BT
+470 740 Td
+(TOTAL) Tj
+ET
+/F1 10 Tf
+0 0 0 RG
+BT
+240 720 Td
+($10.00) Tj
+ET
+BT
+360 720 Td
+(5) Tj
+ET
+BT
+500 720 Td
+($50.00) Tj
+ET
+BT
+95 720 Td
+(ABC product) Tj
+ET
+30 688 535 72 re
+ S
+30 688 535 -38 re
+ S
+/F1 15 Tf
+0 0 0 RG
+BT
+465 665 Td
+(Total : $50.00) Tj
+ET
+/F1 10 Tf
+0 0 0 RG
+BT
+247.5 550 Td
+(ABC Footer example) Tj
+ET
+
+endstream
+endobj
+5 0 obj 
+[]
+endobj
+6 0 obj 
+<</Names 5 0 R >>
+endobj
+7 0 obj 
+<</Dests 6 0 R >>
+endobj
+8 0 obj 
+<</Type /Font /Encoding /WinAnsiEncoding /Subtype /Type1 /BaseFont /Times-Roman >>
+endobj
+xref
+0 9 
+0000000000 65535 f 
+0000000015 00000 n 
+0000000091 00000 n 
+0000000149 00000 n 
+0000000341 00000 n 
+0000001043 00000 n 
+0000001062 00000 n 
+0000001096 00000 n 
+0000001130 00000 n 
+trailer
+<</ID [<30636166363630313337316564636438> <65346437376238643437633335336637> ] /Size 9 /Root 1 0 R >>
+startxref
+1229
+%%EOF

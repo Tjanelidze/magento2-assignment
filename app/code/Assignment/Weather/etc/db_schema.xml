@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="assignment_weather" resource="default" engine="innodb" comment="assignment_weather">
+        <column xsi:type="int" name="id" padding="10" unsigned="true" nullable="false" identity="true" comment="ID"/>
+        <column xsi:type="varchar" name="city" comment="city" nullable="false"/>
+        <column xsi:type="varchar" name="country" comment="country" nullable="false"/>
+        <column xsi:type="varchar" name="description" comment="description" nullable="false"/>
+        <column xsi:type="float" name="temperature" comment="temperature" nullable="false"/>
+        <column xsi:type="float" name="feels_like" comment="feels_like" nullable="false"/>
+        <column xsi:type="int" name="pressure" comment="pressure" nullable="false"/>
+        <column xsi:type="int" name="humidity" comment="humidity" nullable="false"/>
+        <column xsi:type="float" name="wind_speed" comment="wind_speed" nullable="false"/>
+        <column xsi:type="datetime" name="sunrise" comment="sunrise" nullable="false"/>
+        <column xsi:type="datetime" name="sunset" comment="sunset" nullable="false"/>
+        <column xsi:type="datetime" name="checked_on" comment="checked_on" nullable="false"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="id"/>
+        </constraint>
+        <index referenceId="MY_MODULE_CITY" indexType="btree">
+            <column name="city"/>
+        </index>
+        <index referenceId="MY_MODULE_COUNTRY" indexType="btree">
+            <column name="country"/>
+        </index>
+        <index referenceId="MY_MODULE_DESCRIPTION" indexType="btree">
+            <column name="description"/>
+        </index>
+        <index referenceId="MY_MODULE_TEMPERATURE" indexType="btree">
+            <column name="temperature"/>
+        </index>
+        <index referenceId="MY_MODULE_FEELS_LIKE" indexType="btree">
+            <column name="feels_like"/>
+        </index>
+        <index referenceId="MY_MODULE_PRESSURE" indexType="btree">
+            <column name="pressure"/>
+        </index>
+        <index referenceId="MY_MODULE_HUMIDITY" indexType="btree">
+            <column name="humidity"/>
+        </index>
+        <index referenceId="MY_MODULE_WIND_SPEED" indexType="btree">
+            <column name="wind_speed"/>
+        </index>
+        <index referenceId="MY_MODULE_SUNRISE" indexType="btree">
+            <column name="sunrise"/>
+        </index>
+        <index referenceId="MY_MODULE_SUNSET" indexType="btree">
+            <column name="sunset"/>
+        </index>
+        <index referenceId="MY_MODULE_CHECKED_ON" indexType="btree">
+            <column name="checked_on"/>
+        </index>
+    </table>
+</schema>

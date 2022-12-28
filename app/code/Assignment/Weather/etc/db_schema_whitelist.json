@@ -1,0 +1,40 @@
+{
+    "assignment_weather": {
+        "column": {
+            "id": true,
+            "name": true,
+            "lat": true,
+            "lon": true,
+            "city": true,
+            "country": true,
+            "description": true,
+            "temperature": true,
+            "feels_like": true,
+            "pressure": true,
+            "humidity": true,
+            "wind_speed": true,
+            "sunrise": true,
+            "sunset": true,
+            "checked_on": true
+        },
+        "index": {
+            "ASSIGNMENT_WEATHER_NAME": true,
+            "ASSIGNMENT_WEATHER_LAT": true,
+            "ASSIGNMENT_WEATHER_LON": true,
+            "ASSIGNMENT_WEATHER_CITY": true,
+            "ASSIGNMENT_WEATHER_COUNTRY": true,
+            "ASSIGNMENT_WEATHER_DESCRIPTION": true,
+            "ASSIGNMENT_WEATHER_TEMPERATURE": true,
+            "ASSIGNMENT_WEATHER_FEELS_LIKE": true,
+            "ASSIGNMENT_WEATHER_PRESSURE": true,
+            "ASSIGNMENT_WEATHER_HUMIDITY": true,
+            "ASSIGNMENT_WEATHER_WIND_SPEED": true,
+            "ASSIGNMENT_WEATHER_SUNRISE": true,
+            "ASSIGNMENT_WEATHER_SUNSET": true,
+            "ASSIGNMENT_WEATHER_CHECKED_ON": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

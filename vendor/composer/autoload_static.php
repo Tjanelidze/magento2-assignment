@@ -3278,6 +3278,7 @@ class ComposerStaticInit898b6692ff3b774934d68ec69497413e
         'Codeception\\Module\\WebDriver' => __DIR__ . '/..' . '/codeception/module-webdriver/src/Codeception/Module/WebDriver.php',
         'Codeception\\Util\\Shared\\Asserts' => __DIR__ . '/..' . '/codeception/lib-asserts/src/Codeception/Util/Shared/Asserts.php',
         'Codeception\\Util\\Shared\\InheritedAsserts' => __DIR__ . '/..' . '/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'CredisException' => __DIR__ . '/..' . '/colinmollenhour/credis/Client.php',
         'Credis_Client' => __DIR__ . '/..' . '/colinmollenhour/credis/Client.php',
         'Credis_Cluster' => __DIR__ . '/..' . '/colinmollenhour/credis/Cluster.php',

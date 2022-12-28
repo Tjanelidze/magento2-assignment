@@ -1,0 +1,37 @@
+<style>
+    .submit-btn {
+        margin: 20px 0;
+    }
+</style>
+
+<h1>Weather in your city.</h1>
+<form id="location-form" action="<?php echo $block->getUrl('weather/index/save'); ?>">
+    <label for="location">Enter your location:</label>
+    <input type="text" id="location" name="location" required>
+    <button type="submit" class="submit-btn">Submit</button>
+</form>
+<!-- Display list of weather data -->
+<ul>
+    <li>City: <?php echo $block->getWeatherCollection()['city']; ?></li>
+    <li>Country: <?php echo $block->getWeatherCollection()['country']; ?></li>
+    <li>Description: <?php echo $block->getWeatherCollection()['description']; ?></li>
+    <li>Temperature (°C): <?php echo $block->getWeatherCollection()['temperature']; ?></li>
+    <li>Feels Like (°C): <?php echo $block->getWeatherCollection()['feels_like']; ?></li>
+    <li>Pressure (hpa): <?php echo $block->getWeatherCollection()['pressure']; ?></li>
+    <li>Humidity (%): <?php echo $block->getWeatherCollection()['humidity']; ?></li>
+    <li>Wind Speed (meter/sec): <?php echo $block->getWeatherCollection()['wind_speed']; ?></li>
+    <li>Sunrise (UTC): <?php echo $block->getWeatherCollection()['sunrise']; ?></li>
+    <li>Sunset (UTC): <?php echo $block->getWeatherCollection()['sunset']; ?></li>
+</ul>
+
+
+<span>Weather Historical Data: </span><button onclick="downloadPdf()">Download PDF</button>
+
+<script type="text/javascript">
+    function downloadPdf() {
+        window.open('<?php echo $block->getUrl('weather/index/pdf') ?>', '_blank');
+    }
+</script>
+
+
+<?php //echo $this->getChildHtml('grid'); ?>

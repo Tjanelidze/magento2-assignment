@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1671279805;s:6:"expire";i:1702815805;s:4:"tags";s:37:"69d_LAYOUT_GENERAL_CACHE_TAG,69d_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1672240283;s:6:"expire";i:1703776283;s:4:"tags";s:37:"69d_LAYOUT_GENERAL_CACHE_TAG,69d_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6637,6 +6637,26 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1671279805;s:6:"expire";i:1702815805;s:4:"t
 </handle><handle id="signup_index_index" layout="1column"><body>
    <referenceContainer name="content">
       <block name="assignment_signup" class="Assignment\Signup\Block\Form" template="form.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="default"><body>
+   <referenceBlock name="header.links">
+      <block class="Assignment\Weather\Block\Link" name="add-new-header-link">
+         <arguments>
+            <argument name="label" translate="true" xsi:type="string">Weather</argument>
+            <argument name="path" translate="true" xsi:type="string">weather/index</argument>
+         </arguments>
+      </block>
+   </referenceBlock>
+</body>
+</handle><handle id="weather_index_index" layout="1column"><update handle="formkey"/>
+<head>
+   <css src="Assignment_UiGrid::css/backend.css"/>
+</head>
+<body>
+   <referenceContainer name="content">
+      <block name="assignment_weather" class="Assignment\Weather\Block\Weather" template="index.phtml" cacheable="false"/>
+      <uiComponent name="assignment_weather_grid"/>
    </referenceContainer>
 </body>
 </handle><handle id="checkout_index_index"><body>
