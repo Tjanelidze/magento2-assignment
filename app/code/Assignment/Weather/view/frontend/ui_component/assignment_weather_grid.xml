@@ -113,7 +113,7 @@
         <column name="sunrise">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="filter" xsi:type="string">time</item>
+                    <item name="filter" xsi:type="string">text</item>
                     <item name="label" xsi:type="string" translate="true">Sunrise</item>
                 </item>
             </argument>
@@ -121,7 +121,7 @@
         <column name="sunset">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="filter" xsi:type="string">time</item>
+                    <item name="filter" xsi:type="string">text</item>
                     <item name="label" xsi:type="string" translate="true">Sunset</item>
                 </item>
             </argument>
@@ -129,7 +129,7 @@
         <column name="checked_on">
             <argument name="data" xsi:type="array">
                 <item name="config" xsi:type="array">
-                    <item name="filter" xsi:type="string">time</item>
+                    <item name="filter" xsi:type="string">text</item>
                     <item name="label" xsi:type="string" translate="true">Checked On</item>
                 </item>
             </argument>
