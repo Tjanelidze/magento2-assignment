@@ -1,1 +1,12 @@
-/var/www/html/vendor/magento/module-translation/view/base/web/js/mage-translation-dictionary.js
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+define([
+    'text!js-translation.json'
+], function (dict) {
+    'use strict';
+
+    return JSON.parse(dict);
+});

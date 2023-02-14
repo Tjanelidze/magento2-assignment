@@ -1,0 +1,2 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1675691301;s:6:"expire";i:9999999999;s:4:"tags";s:19:"69d_CONFIG,69d_MAGE";}
+{"search":{"patterns":{"catalog_image":"\/^\\\/?media\\\/(?:.renditions\\\/)?(.*)\/","catalog_image_with_pub":"\/^\\\/pub\\\/?media\\\/(?:.renditions\\\/)?(.*)\/","media_gallery":"\/{{media url=\"?(?:.*?\\.renditions\\\/)(.*?)\"?}}\/","wysiwyg":"\/src=\".*\\\/media\\\/(?:.renditions\\\/)*(.*?)\"\/","media_gallery_renditions":"\/{{media url=(?:\"|&quot;)(?:.renditions)?(.*?)(?:\"|&quot;)}}\/"}}}

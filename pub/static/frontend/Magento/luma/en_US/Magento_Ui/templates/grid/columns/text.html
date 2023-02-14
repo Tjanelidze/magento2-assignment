@@ -1,1 +1,14 @@
-/var/www/html/vendor/magento/module-ui/view/base/web/templates/grid/columns/text.html
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<th class="data-grid-th" click="sort"
+    css="
+        _sortable: sortable,
+        _draggable: draggable,
+        _ascend: sorting === 'asc',
+        _descend: sorting === 'desc'">
+    <span class="data-grid-cell-content" translate="label"/>
+</th>

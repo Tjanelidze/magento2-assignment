@@ -1,0 +1,13 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1675788010;s:6:"expire";i:1675874410;s:4:"tags";s:46:"69d_BLOCK_HTML,69d_CAT_P_14,69d_CAT_P,69d_MAGE";}
+a:2:{s:8:"policies";a:2:{i:0;a:3:{s:2:"id";s:10:"script-src";s:5:"hosts";a:0:{}s:6:"hashes";a:16:{s:44:"NDTZUp0TyO0E0V1MsV08L72Q82ggeoOfqKTGHKBHHW4=";s:6:"sha256";s:44:"48sb4Je7XoTlJimO7pm/+fwXo5BBI6oU4Vci+QqK2/I=";s:6:"sha256";s:44:"HUjaEs6gPI/8f06cL8Wy1zR3vaPjSDAYb+YL5IRBsf4=";s:6:"sha256";s:44:"9N89WMndeXJQQmez3zcXupuWhb0jRtPuHYgRtBa1Cjo=";s:6:"sha256";s:44:"gRj/l5GTyNhbsUXCY4AtBpQ92ii+y2iXVIJ+yzPjP0c=";s:6:"sha256";s:44:"O97qdKyxwnsv8yTXdJx9eyOf8+Qiv5dPtxGjaC4upmc=";s:6:"sha256";s:44:"piaROf1ZXszc1jhNa5a9EXNbd1nncvbvFCheGIGt16o=";s:6:"sha256";s:44:"Ug0HIiMN4QvhaK0FlSRBFVPwHQO6NjlQm6TbUYKBu4A=";s:6:"sha256";s:44:"N3hUxXfo11hZDt6khdgc1K0ccabH7sPDTgLaU97BG8o=";s:6:"sha256";s:44:"iQ8YBpitL/IesFH3BSpMmZK1K6c2Y8aJygAnhbicQp8=";s:6:"sha256";s:44:"sVmUdd29qj68XqRb4G6+JX6pPTprP31tsSe1TVklb2E=";s:6:"sha256";s:44:"lZAfVoOxtTGE2bUed3g+bvhY1bgWGsPdARDBbxbviLw=";s:6:"sha256";s:44:"7sycDGwlf2K2irvYfAl8KpxJvfRIVL+I9NWN2yBGaDo=";s:6:"sha256";s:44:"sk2R3alzI+toGtLnUkLgfZUwYWOMazg2NLU8SeB+GtM=";s:6:"sha256";s:44:"T9SJuXlFs7TJu2zF1kYDD/z22q1EoeQMJ8M/gHK5BDE=";s:6:"sha256";s:44:"uV5YtljbxDCZs7m4w7X0ikaJceeu1Jcm6MWLCNE7VAM=";s:6:"sha256";}}i:1;a:3:{s:2:"id";s:9:"style-src";s:5:"hosts";a:0:{}s:6:"hashes";a:6:{s:44:"hGFYt6dNV7FOHldEJ1vfMfE9j5F5C4BHzJvP5d1BhOs=";s:6:"sha256";s:44:"T6JUW5Bz9syr1pQOxN5AP2ZTBAuQHBs0/wayarWnepc=";s:6:"sha256";s:44:"NMgvSJtYYXwoV+jnontMO2udNHhC1Gs05pHXX6JgA/Y=";s:6:"sha256";s:44:"NioGWn1W/zb8ATScOti9uulc+zZ/ae52WNhp2TcHfF0=";s:6:"sha256";s:44:"PB8zgWhZSmw/BLR3d4fVXPIlWzS+yCxDQtutebLHxYY=";s:6:"sha256";s:44:"i+hvfBqQRcPVe0yj0Z2DZoMppLcXBDlJoU2mDuXMjP8=";s:6:"sha256";}}}s:4:"html";s:426:"<div class="price-box price-final_price" data-role="priceBox" data-product-id="14" data-price-box="product-id-14">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-14-widget-product-grid"                data-price-amount="45"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$45.00</span></span>
+        </span>
+
+</div>";}

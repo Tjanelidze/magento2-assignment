@@ -1,1 +1,22 @@
-/var/www/html/vendor/magento/theme-frontend-blank/Magento_Theme/web/js/theme.js
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+define([
+    'jquery',
+    'mage/smart-keyboard-handler',
+    'mage/mage',
+    'mage/ie-class-fixer',
+    'domReady!'
+], function ($, keyboardHandler) {
+    'use strict';
+
+    $('.cart-summary').mage('sticky', {
+        container: '#maincontent'
+    });
+
+    $('.panel.header > .header.links').clone().appendTo('#store\\.links');
+
+    keyboardHandler.apply();
+});
